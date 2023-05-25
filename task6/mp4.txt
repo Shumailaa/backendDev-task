@@ -1,0 +1,14 @@
+1440p:
+ffmpeg -i 3840x2160.mp4 -vf scale=2560:1440 1440pOutput.mp4
+
+
+1080p:
+ffmpeg -i 3840x2160.mp4 -vf scale=1920:1080 1080pOutput.mp4
+
+
+720p:
+ffmpeg -i 3840x2160.mp4 -vf scale=1280:720 720pOutput.mp4
+
+
+480p:
+ffmpeg -i 3840x2160.mp4 -vf scale=640:480 480pOutput.mp4 
